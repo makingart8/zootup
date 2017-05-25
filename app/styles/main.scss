@@ -6,6 +6,39 @@ $header-color: rgba(85, 85, 85, 1);
 
 $secondary-color: rgba(255, 150, 11,1);
 
+#blockquoteRow {
+  img {
+    width: 300px;
+    //height: 300px;
+  }
+}
+
+#productRow {
+  img {
+    width: 300px;
+  }
+}
+
+#newsheaderRow {
+  img {
+    width: 300px;
+  }
+}
+
+#socialHeaderRow {
+  color: $brand-primary;
+}
+
+#socialIcons {
+  
+}
+
+
+
+
+
+
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
