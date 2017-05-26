@@ -6,6 +6,22 @@ $header-color: rgba(85, 85, 85, 1);
 
 $secondary-color: rgba(255, 150, 11,1);
 
+#header {
+  background-color: $header-color;
+  img {
+    width: 15rem;
+    position: absolute;
+    top: -1rem;
+
+  }
+
+  #littlePic{
+    width: 5rem;
+    position: absolute;
+    top: -1rem;
+  }
+}
+
 #blockquoteRow {
   img {
     width: 300px;
@@ -30,10 +46,26 @@ $secondary-color: rgba(255, 150, 11,1);
 }
 
 #socialIcons {
-  
+  i{
+    font-size: 4rem;
+  }
 }
 
+#footerRow {
+  height: 20rem;
+  background-color: black;
+  h3 {
+    color: white;
+  }
 
+  p {
+    color: white;
+  }
+
+  h5 {
+    color: white;
+  }
+}
 
 
 
