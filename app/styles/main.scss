@@ -8,6 +8,13 @@ $secondary-color: rgba(255, 150, 11,1);
 
 #header {
   background-color: $header-color;
+
+  .navbar-nav {
+    margin-right: 4rem;
+    .nav-link{
+      color: white;
+    }
+  }
   img {
     width: 15rem;
     position: absolute;
@@ -15,17 +22,44 @@ $secondary-color: rgba(255, 150, 11,1);
 
   }
 
-  #littlePic{
-    width: 5rem;
-    position: absolute;
-    top: -1rem;
+}
+
+#heroImage{
+  background-image: url("/images/janis-oppliger-184613.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 800px;
+  color: $brand-primary;
+  padding-top: 10%;
+  .btn {
+    border: 5px solid white;
   }
+
+}
+
+.carousel-item {
+  max-height: 600px;
+  max-width: 600px;
+}
+
+.card{
+  margin-top: 10rem;
+  margin-bottom: 20rem;
 }
 
 #blockquoteRow {
+  background-image: url("/images/lambert-yuri-108539.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  color: white;
+  padding-top: 5rem;
+  padding-left: 20rem;
   img {
-    width: 300px;
-    //height: 300px;
+    margin-left: 12rem;
+    width: 35rem;    //height: 300px;
+    position: relative;
+
   }
 }
 
@@ -42,7 +76,7 @@ $secondary-color: rgba(255, 150, 11,1);
 }
 
 #socialHeaderRow {
-  color: $brand-primary;
+color: $brand-primary;
 }
 
 #socialIcons {
