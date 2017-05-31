@@ -6,6 +6,8 @@ $header-color: rgba(85, 85, 85, 1);
 
 $secondary-color: rgba(255, 150, 11,1);
 
+
+
 #header {
   background-color: $header-color;
 
@@ -45,47 +47,154 @@ $secondary-color: rgba(255, 150, 11,1);
 .card{
   margin-top: 10rem;
   margin-bottom: 20rem;
+  .card-img-top{
+    position: relative;
+    max-width: 100%;
+    //max-height: 20rem;
+  }
 }
 
 #blockquoteRow {
   background-image: url("/images/lambert-yuri-108539.jpg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 500px;
-  color: white;
-  padding-top: 5rem;
-  padding-left: 20rem;
-  img {
-    margin-left: 12rem;
-    width: 35rem;    //height: 300px;
-    position: relative;
 
+  color: white;
+
+
+
+
+
+  @include media-breakpoint-only(xs) {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    height: 100px;
+    img {
+      margin-left: 4rem;
+      width: 5rem;    //height: 300px;
+      position: relative;
+
+    }
+    .blockquote{
+      //margin-top: 2rem;
+      font-size: 10px;
+      .blockquote-footer{
+        color: white;
+        font-size: 7px;
+      }
+    }
   }
+  @include media-breakpoint-only(sm) {
+    padding-top: 1rem;
+    padding-left: 2rem;
+    height: 100px;
+    img {
+      margin-left: 4rem;
+      width: 7rem;    //height: 300px;
+      position: relative;
+
+    }
+    .blockquote{
+      //margin-top: 2rem;
+      font-size: 10px;
+      .blockquote-footer{
+        color: white;
+        font-size: 7px;
+      }
+    }
+  }
+  @include media-breakpoint-only(md) {
+    padding-left: 1rem;
+    height: 150px;
+
+    img {
+      margin-left: 6rem;
+      margin-bottom: 100rem;
+      width: 10rem;    //height: 300px;
+      position: relative;
+
+    }
+    .blockquote{
+      margin-top: 2rem;
+      font-size: 15px;
+      .blockquote-footer{
+        color: white;
+        font-size: 10px;
+      }
+    }
+  }
+  @include media-breakpoint-only(lg) {
+    padding-top: 5rem;
+    padding-left: 10rem;
+    height: 300px;
+
+    img {
+      margin-left: 10rem;
+      width: 20rem;    //height: 300px;
+      position: relative;
+
+    }
+    .blockquote{
+      margin-top: 2rem;
+      font-size: 1rem;
+      .blockquote-footer{
+        color: white;
+        font-size: 1rem;
+      }
+    }
+  }
+  @include media-breakpoint-only(xl) {
+    padding-top: 5rem;
+    padding-left: 20rem;
+    height: 500px;
+
+    img {
+      margin-left: 12rem;
+      width: 35rem;    //height: 300px;
+      position: relative;
+
+    }
+    .blockquote{
+      margin-top: 2rem;
+      font-size: 2rem;
+      .blockquote-footer{
+        color: white;
+        font-size:1rem;
+      }
+    }
+  }
+
+
 }
 
 #productRow {
+  margin-top: 5rem;
   img {
     width: 300px;
   }
 }
 
 #newsheaderRow {
+  margin-top: 5rem;
   img {
     width: 300px;
   }
 }
 
 #socialHeaderRow {
-color: $brand-primary;
+  margin-top: 5rem;
+  color: $brand-primary;
 }
 
 #socialIcons {
+  margin-top: 5rem;
   i{
     font-size: 4rem;
   }
 }
 
 #footerRow {
+  margin-top: 5rem;
   height: 20rem;
   background-color: black;
   h3 {
