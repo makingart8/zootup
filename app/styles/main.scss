@@ -39,9 +39,19 @@ $secondary-color: rgba(255, 150, 11,1);
 
 }
 
+#openingText{
+  margin-bottom: 2rem;
+
+}
+
+#leadText{
+  margin-bottom: 2rem;
+
+}
+
 .carousel-item {
   max-height: 600px;
-  max-width: 600px;
+  max-width: 1000px;
 }
 
 .card{
@@ -194,6 +204,7 @@ $secondary-color: rgba(255, 150, 11,1);
 }
 
 #footerRow {
+  padding-top: 2rem;
   margin-top: 5rem;
   height: 20rem;
   background-color: black;
@@ -210,6 +221,10 @@ $secondary-color: rgba(255, 150, 11,1);
   }
 }
 
+#copyrightRow {
+  margin-top: 1rem;
+
+}
 
 
 
